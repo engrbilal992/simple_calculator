@@ -72,7 +72,7 @@ int main() {
                     cout << "Error! Modulus by zero!" << endl;
                     continue;
                 }
-                result = modulus(num1, num2);
+                result = ::modulus(num1, num2);
                 break;
             case 6:
                 if (num1 < 0) {
