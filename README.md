@@ -1,6 +1,4 @@
-# README
-
-## Simple Calculator
+# Simple Calculator
 
 This project is a command-line-based advanced calculator written in C++. It supports basic arithmetic operations like addition, subtraction, multiplication, division, and modulus. Additionally, it provides some extra functionalities such as square root calculation and power operation.
 
