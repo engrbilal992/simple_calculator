@@ -1,0 +1,22 @@
+# Makefile
+
+```Makefile
+# Makefile for Advanced Calculator
+
+# Compiler
+CXX = g++
+
+# Compiler Flags
+CXXFLAGS = -std=c++11 -Wall
+
+# Target and source files
+TARGET = calculator
+SRC = calculator.cpp
+
+# Build rule
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) -lm
+
+# Clean rule
+clean:
+	rm -f $(TARGET)
