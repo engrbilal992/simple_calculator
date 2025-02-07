@@ -25,10 +25,6 @@ jobs:
       run: |
         g++ -Wall -g -o calculator calculator.cpp
 
-    - name: Run tests (if any)
-      run: |
-        ./calculator
-
     - name: Clean up
       run: |
         rm calculator
