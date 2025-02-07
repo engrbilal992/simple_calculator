@@ -17,9 +17,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up C++ environment
-      uses: actions/setup-cpp@v1
-
-    - name: Install dependencies
       run: |
         sudo apt update
         sudo apt install -y g++ make
@@ -30,7 +27,6 @@ jobs:
 
     - name: Run tests (if any)
       run: |
-        # Add your test commands here if you have tests
         ./calculator
 
     - name: Clean up
